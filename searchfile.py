@@ -26,6 +26,11 @@ class File:
         os.chdir(directory)
         for file in glob.glob("{}.*".format(nameOfFile)):
             os.remove(file)
+            
+    def makeFilesByType(self,nameOfFile,typeOfFile,directory,amountOfFiles):
+        os.chdir(directory)
+        for i in range(0,amountOfFiles):
+            file = open("{}({}).{}".format(nameOfFile,i,typeOfFile),"w")            
 
 file = File()
 
