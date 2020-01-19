@@ -29,4 +29,3 @@ class File:
 
 file = File()
 
-print(file.deleteFileByName("test","C:\\Users\\stnob\\Desktop\\test"))
