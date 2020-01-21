@@ -1,6 +1,8 @@
 import glob
 import os
 
+#Author Stephen Nobilio
+
 class File:
 
     def findFileByType(self,typeOfFile,directory):
