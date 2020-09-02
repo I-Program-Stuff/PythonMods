@@ -1,7 +1,7 @@
 import glob
 import os
 
-#Author Stephen :)
+### Author Stephen ###
 
 class File:
 
