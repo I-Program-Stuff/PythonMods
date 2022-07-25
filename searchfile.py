@@ -1,8 +1,6 @@
 import glob
 import os
 
-### Author Stephen ###
-
 class File:
 
     def findFileByType(self,typeOfFile,directory):
